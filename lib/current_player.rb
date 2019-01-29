@@ -1,6 +1,6 @@
 def turn_count(board)
 turns = 0   
-board.each do |turns|
+board.each do |turn|
 if turns == "X" && turns == "O" 
 turns += 1
 end
